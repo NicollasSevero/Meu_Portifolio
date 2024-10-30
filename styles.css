@@ -19,7 +19,6 @@ header {
     background-color: #1f1f1f;
     padding: 20px;
     text-align: center;
-    position: sticky;
     top: 0;
     z-index: 1000;
 }
@@ -33,6 +32,15 @@ header p {
     margin: 5px 0;
     font-size: 1.2rem;
     color: #888;
+}
+header img{
+    display: block;
+    margin: auto; 
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+
 }
 
 /* Seções */
